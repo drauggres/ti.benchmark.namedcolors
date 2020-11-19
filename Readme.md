@@ -21,7 +21,7 @@
 
 ## Memory
 
-### Java heapdump size.
+### Android. Java Heap Dump File Size.
 <details>
  <summary>Click to open</summary>
 
@@ -31,6 +31,14 @@ Collected with command:
 Note: in SDK 8.2.1 for Android `Ti.UI.fetchSemanticColor` returns `string` value; in 9.2.2 - ColorProxy (?)
 
 ![android](results/memory_java/android.png)
+</details>
+
+### iOS. Native heap size
+<details>
+ <summary>Click to open</summary>
+
+`All Heap & Anonymous VM` `Total Bytes` after 50 seconds uptime.
+![ios](results/memory_native/ios.png)
 </details>
 
 ### JavaScript heap snapshot size.
