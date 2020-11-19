@@ -1,5 +1,11 @@
 # Results
 
+* `prefetch 8.2.1` - stats for the application compiled with SDK 8.2.1 and `colors-with-fetch.js`
+* `prefetch 9.2.2` - SDK 9.2.2 and `colors-with-fetch.js`
+* `named 9.2.2` - SDK 9.2.2 and `colors-only-name.js`
+
+Note: named color were added in [TIMOB-27895](https://jira.appcelerator.org/browse/TIMOB-27895) (SDK 9.1.0)
+
 ## Load Time
 
 <details>
