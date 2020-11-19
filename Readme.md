@@ -2,6 +2,9 @@
 
 ## Load Time
 
+<details>
+ <summary>Click to open</summary>
+
 * `parse`:
   * Read `semantics.colors.json`
   * parse it
@@ -13,10 +16,14 @@
 
 ![ios](results/time/ios.png)
 
+</details>
+
 
 ## Memory
 
 ### Java heapdump size.
+<details>
+ <summary>Click to open</summary>
 
 Collected with command:
 * `adb shell 'am dumpheap PID /data/local/tmp/dump.hprof'`
@@ -24,11 +31,15 @@ Collected with command:
 Note: in SDK 8.2.1 for Android `Ti.UI.fetchSemanticColor` returns `string` value; in 9.2.2 - ColorProxy (?)
 
 ![android](results/memory_java/android.png)
+</details>
 
 ### JavaScript heap snapshot size.
-
+<details>
+ <summary>Click to open</summary>
+ 
 Value reported in `Statistics` as **`Total`** for a heap snapshot. 
 ![android](results/memory_js/android.png)
 
 Size of an exported heap snapshot (not the actual heap size!).
 ![ios](results/memory_js/ios.png)
+</details>
