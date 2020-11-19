@@ -17,9 +17,6 @@ if (Ti.Platform.osname === 'android') {
   }
 }
 
-console.log(`semanticColorType: ${Ti.UI.semanticColorType}`);
-console.log(`userInterfaceStyle: ${Ti.App.iOS.userInterfaceStyle}`);
-
 const fileName = 'semantic.colors.json';
 const colorsetFile = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, fileName);
 if (colorsetFile.exists()) {

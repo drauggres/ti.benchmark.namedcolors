@@ -1,8 +1,11 @@
 try {
   const start = Date.now();
 
-  // const colors = require('/colors-with-fetch');
-  const colors = require('/colors-only-name');
+  // Parse 'semantic.colors.json', then fetch each color by name
+  const colors = require('/colors-with-fetch');
+  
+  // Named colors
+  // const colors = require('/colors-only-name');
   console.log(`require: ${Date.now() - start}ms`);
 
   const create = Date.now();
