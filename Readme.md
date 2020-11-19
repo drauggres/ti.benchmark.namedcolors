@@ -1,6 +1,6 @@
 # Results
 
-## Time
+## Load Time
 
 * `parse`:
   * Read `semantics.colors.json`
@@ -16,7 +16,13 @@
 
 ## Memory
 
-Java heapdump size. Collected with command:
+### Java heapdump size.
+
+Collected with command:
 * `adb shell 'am dumpheap PID /data/local/tmp/dump.hprof'`
 
 ![android](results/memory_java/android.png)
+
+### JavaScript heap snapshot size.
+
+![android](results/memory_js/android.png)
