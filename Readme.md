@@ -12,3 +12,11 @@
 ![android](results/time/android.png)
 
 ![ios](results/time/ios.png)
+
+
+## Memory
+
+Java heapdump size. Collected with command:
+* `adb shell 'am dumpheap PID /data/local/tmp/dump.hprof'`
+
+![android](results/memory_java/android.png)
