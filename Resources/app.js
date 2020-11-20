@@ -1,11 +1,26 @@
 try {
   const start = Date.now();
 
-  // Parse 'semantic.colors.json', then fetch each color by name
-  const colors = require('/colors-with-fetch');
-  
-  // Named colors
+  // Uncomment one of `const colors`
+
+  /*
+    Parse 'semantic.colors.json', then fetch each color by name
+    stats: <platform>_prefetch_<version>.txt
+   */
+  // const colors = require('/colors-with-fetch');
+
+  /*
+    Named colors
+    stats: <platform>_named_<version>.txt
+   */
   // const colors = require('/colors-only-name');
+
+  /*
+    One constant string
+    stats: <platform>_constant_<version>.txt
+   */
+  //const colors = require('/colors-string-constants');
+  
   console.log(`require: ${Date.now() - start}ms`);
 
   const create = Date.now();
