@@ -3,6 +3,8 @@
 * `prefetch 8.2.1` - stats for the application compiled with SDK 8.2.1 and `colors-with-fetch.js`
 * `prefetch 9.2.2` - SDK 9.2.2 and `colors-with-fetch.js`
 * `named 9.2.2` - SDK 9.2.2 and `colors-only-name.js`
+* `constant 8.2.1` - one color in constant string (no semantic colors), SDK 8.2.1
+* `constnat 9.2.2` - one color in constant string (no semantic colors), SDK 9.2.2
 
 Note: named color were added in [TIMOB-27895](https://jira.appcelerator.org/browse/TIMOB-27895) (SDK 9.1.0)
 
